@@ -1,0 +1,139 @@
+/* - Orange: hsl(25, 97%, 53%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Medium Grey: hsl(216, 12%, 54%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%)
+ */
+ 
+.main-container{
+    width:380px;
+    height:550px;
+    background: hsl(213, 19%, 18%);
+    padding-left:30px;
+    padding-top:10px;
+    font-family:"times new roman";
+    border-radius:18px;
+}
+.img-star{
+    margin-top:20px;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background:white;
+}
+.main-container h1{
+    color:white;
+    margin-top:50px;
+}
+.main-container h2{
+    margin-top:40px;
+    color: white;
+    font-size: 20px;
+    word-spacing: 3px;
+}
+.btn{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: hsl(216, 12%, 54%);
+  backgroud: hsl(216, 12%, 8%);
+  font-size: 22px;
+  font-family: serif;
+  border-style: none;
+  margin-top: 40px;
+  margin:5px;
+}
+#submit{
+    width:350px;
+    height:46px;
+    background:hsl(25, 97%, 53%);
+    border-radius:25px;
+    margin-top:40px;
+    color:white;
+    border-style:none;
+    font-size:23px;
+    font-weight:bolder;
+    font-family:serif;
+    transition:0.5s ease;
+}
+#submit:hover{
+    background: white;
+    color:orange;
+}
+.btn:hover{
+    background:hsl(25, 97%, 53%);
+}
+.btn:focus{
+    background: hsl(216, 12%, 63%);
+    color:white;
+}
+
+.sub-container{
+    width:380px;
+    height:550px;
+    background: hsl(213, 19%, 18%);
+    padding-left:30px;
+    padding-top:10px;
+    font-family:"times new roman";
+    border-radius:18px;
+}
+
+
+
+#rate-again{
+    width:350px;
+    height:46px;
+    background:hsl(25, 97%, 53%);
+    border-radius:25px;
+    margin-top:40px;
+    margin-right: 40px;
+    color:white;
+    border-style:none;
+    font-size:23px;
+    font-weight:bolder;
+    font-family:serif;
+    transition:0.5s ease;
+}
+#rate-again:hover{
+    background: white;
+    color:orange;
+}
+.img-cont{
+    margin-top:30px;
+    margin-left:50px;
+}
+.sub-container h3{
+    color:white;
+    margin-top:50px;
+    padding-right:20px;
+}
+.sub-container h2{
+    padding-left:70px ;
+    width: 240px;
+    border-radius: 10px;
+    margin-top:40px;
+    text-align:center;
+    height:20px;
+    background: orange;
+    color: white;
+    font-size: 20px;
+    word-spacing: 3px;
+}
+.hidden{
+  display: none;
+}
+
+
+
+@media screen and (min-width:360px){
+body{
+   height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+}
